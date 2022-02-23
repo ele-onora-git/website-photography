@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lebanon</title>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind+Guntur:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+    <body>
+        <div class="wrapper">
+
+<!-- NAV BAR -->   
+<!-- nav is same as div -->
+<nav class="navbar">
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">≡</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="lebanon.html">lebanon</a>
+      <a href="turkey.html">turkey</a>
+      <a href="uk.html">uk</a>
+      <a href="tanya.html">tanya</a>
+    </div>
+  </div>
+  <div class="location">lebanon</div>
+  <div class="logo"><img src='portfolio/EK-green.png'></div>
+</nav>
+
+<!-- BG TEXT -->
+<div class="bg-text">
+  <div class="text-wrapper">
+    <h1>lebanon</h1>
+  </div>
+</div>
+
+<!-- SLIDER -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <div class="slide-number">
+        <p><span>001</span></p>
+      </div>
+      <div class="slide-text">
+        <h4><span>Ahmed talking to someone at a cafe on top of St. Nicolas stairs in Beirut.</span></h4>
+      </div>
+      <div class="slide-img" style="background-image:url(portfolio/LEB-Ahmed-1.jpg)"></div>
+      </div>
+
+    <div class="swiper-slide">
+      <div class="slide-number">
+        <p><span>002</span></p>
+      </div>
+      <div class="slide-text">
+        <h4><span>Ahmed lighting his cigarette in a cafe on top of St. Nicolas stairs in Beirut.</span></h4>
+      </div>
+      <div class="slide-img" style="background-image:url(portfolio/LEB-Ahmed-2.jpg)"></div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="slide-number">
+        <p><span>003</span></p>
+      </div>
+      <div class="slide-text">
+        <h4><span>Renaud and Rabiah playing backgammon on top of St. Nicolas stairs in Beirut.</span></h4>
+      </div>
+      <div class="slide-img" style="background-image: url(portfolio/LEB-Renaud-Rabiah.jpg)"></div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="slide-number">
+        <p><span>004</span></p>
+      </div>
+      <div class="slide-text">
+        <h4><span>Maurizio listening to someone at a cafe at the top of St. Nicolas stairs in Beirut.</span></h4>
+      </div>
+      <div class="slide-img" style="background-image: url(portfolio/LEB-Maurizio.jpg)"></div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="slide-number">
+        <p><span>005</span></p>
+      </div>
+      <div class="slide-text">
+        <h4><span>A woman concentrating on the game of backgammon on top of St. Nicolas stairs in Beirut.</span></h4>
+      </div>
+      <div class="slide-img" style="background-image: url(portfolio/LEB-blonde-girl-backgammon.jpg)"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER
+    =============================== -->
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="share">
+          <a href="#">share</a>
+        </div>
+        <div class="fg">
+          <a href="#">full gallery</a>
+        </div>
+        <div class="contact">
+          <p>contact</p>
+        </div>
+      </div>
+    </footer>
+
+        </div>
+
+          <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- gsap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<!-- swiper js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+<!-- custom js -->
+<script src="main.js"></script>
+
+
+<!--DROP DOWN MENU-->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    </body>
+</html>
