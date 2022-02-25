@@ -134,7 +134,7 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: .3;
-    font-size: 12.5vw;
+    font-size: 9vw;
   }
 
   .text-wrapper h1 {
@@ -280,4 +280,62 @@ ul{
   }
   */
 
+
+/* CONTACT */
+
+  .contact-together {
+    height:100%;
+    width: auto;
+  }
+
+  .contact-container {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    width: 30%;
+    background-color: transparent;
+  }
+
+  .contact-text {
+    font-family: 'Hind Guntur', sans-serif;
+    color: #2D2B48;
+    font-size: 90%;
+    margin-bottom: 16px;
+  }
+
+  .names {
+    display: flex;
+        justify-content:space-between;
+        gap: 12px;
+    }
+    
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #918a89;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #2D2B48;
+    font-size: 90%;
+    font-family: 'Hind Guntur', sans-serif;
+  }
+  
+  input[type=submit] {
+    background-color: #918a89;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2D2B48;
+  }
+  
   
