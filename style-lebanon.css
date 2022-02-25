@@ -21,7 +21,7 @@ a:visited {
   color:#918a89;
   text-decoration: none;} /* Visited link    */
 a:hover {
-  color:#004aad;
+  color:#620E28;
   text-decoration: none;}   /* Mouse over link */
 a:active {
   color:#918a89;
@@ -73,10 +73,11 @@ ul{
   border: none;
   outline: none;
   background-color: transparent;
+  color: #918a89;
 }
 
 .navbar .dropbtn:hover, .dropbtn:focus, .dropbtn:visited {
-  color:#004aad;
+  color:#620E28;
 }
 
 /*
@@ -94,13 +95,13 @@ ul{
 }
 
 .dropdown-content a {
-  color: black;
+  color: #918a89;
   text-decoration: none;
   display: block;
 }
 
 .dropdown a:hover {
-  color: #004aad;}
+  color: #620E28;}
 
 
 .show {display: block;}
@@ -123,7 +124,7 @@ ul{
 /* BG TEXT */
 .bg-text{
     width: 100%;
-    font-size: 150px;
+    height:auto;
 }
   .text-wrapper {
     width: 100%;
@@ -132,13 +133,14 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: .3;
+    font-size: 12.5vw;
   }
 
   .text-wrapper h1 {
 /*    font-family: "assc";*/
     text-align: center;
     color: transparent;
-    -webkit-text-stroke: 3px #004aad;
+    -webkit-text-stroke: 3px #620E28;
     text-transform: uppercase;
   }
 
@@ -155,35 +157,18 @@ ul{
     transition-delay: 1s;
   }
   
+  /*
+  .swiper-slide {
+    width: 50%;
+    height: 500px;
+  }
+  */
+
   .swiper-slide {
     width: 50%;
     height: 500px;
   }
   
-/*
-  .swiper-slide:nth-child(1) .slide-img {
-    background-image:url(portfolio/LEB-Ahmed-1.jpg);
-  }
-
-  .swiper-slide:nth-child(2) .slide-img {
-    background-image:url(portfolio/LEB-Ahmed-2.jpg);
-  }
-  .swiper-slide:nth-child(3) .slide-img {
-    background-image: url(portfolio/LEB-Renaud-Rabiah.jpg);
-  }
-  .swiper-slide:nth-child(4) .slide-img {
-    background-image: url(portfolio/LEB-Maurizio.jpg);
-  }
-  .swiper-slide:nth-child(5) .slide-img {
-    background-image: url(portfolio/LEB-blonde-girl-backgammon.jpg);
-  }
-  */
-
-  /*
-  .turkey .swiper-slide:nth-child(1) .slide-img {
-    background-image: url(portfolio/TRK-Antalya-kid-in-lifevest.jpg);
-  }
-  */
   
   .slide-img {
     background-position: 50%;
@@ -222,7 +207,7 @@ ul{
   
   .slide-number p {
     font-size: 50px;
-    color: #004aad;
+    color: #620E28;
     position: relative;
   }
   
@@ -242,7 +227,7 @@ ul{
   }
   
   .slide-text h4 {
-    color: #004aad;
+    color: #620E28;
     position: relative;
   }
   
